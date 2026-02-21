@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    color: #2d2d2d;
+    background: #faf8f5;
+  }
+
+  ::selection {
+    background: rgba(107, 143, 113, 0.2);
+  }
+}
+
+@layer components {
+  .section-label {
+    @apply font-sans text-[11px] tracking-[5px] uppercase text-sage-500 mb-4 font-medium;
+  }
+
+  .section-heading {
+    @apply text-4xl md:text-5xl font-light text-dark leading-tight;
+  }
+
+  .section-heading-accent {
+    @apply italic text-sage-500 font-normal;
+  }
+
+  .body-text {
+    @apply font-sans text-[15px] leading-[1.9] text-gray-500 font-light;
+  }
+
+  .cta-btn {
+    @apply inline-block px-10 py-4 bg-sage-500 text-white font-sans text-xs tracking-[3px] uppercase font-medium
+    border-none cursor-pointer transition-all duration-300 rounded-[1px] no-underline
+    hover:bg-sage-600 hover:-translate-y-0.5 hover:shadow-lg;
+  }
+
+  .cta-btn-outline {
+    @apply inline-block px-9 py-3.5 bg-transparent text-sage-500 font-sans text-xs tracking-[3px] uppercase font-medium
+    border border-sage-500 cursor-pointer transition-all duration-300 no-underline
+    hover:bg-sage-500 hover:text-white;
+  }
+
+  .cta-btn-white {
+    @apply inline-block px-10 py-4 bg-white text-sage-500 font-sans text-xs tracking-[3px] uppercase font-medium
+    border-none cursor-pointer transition-all duration-300 no-underline
+    hover:bg-cream-100 hover:-translate-y-0.5 hover:shadow-lg;
+  }
+
+  .nav-link {
+    @apply relative no-underline text-gray-500 font-sans text-[13px] tracking-[2px] uppercase font-normal
+    transition-colors duration-300 hover:text-sage-500;
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute -bottom-1 left-0 w-0 h-[1px] bg-sage-500 transition-all duration-300;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  .specialty-card {
+    @apply transition-all duration-300 cursor-pointer
+    hover:-translate-y-1 hover:shadow-xl;
+  }
+
+  .blog-card {
+    @apply transition-all duration-300 cursor-pointer
+    hover:-translate-y-1 hover:shadow-xl;
+  }
+
+  .input-field {
+    @apply w-full py-3.5 px-0 bg-transparent border-0 border-b border-cream-400
+    font-serif text-lg text-dark outline-none transition-colors duration-300
+    focus:border-sage-500 placeholder:text-cream-400;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #faf8f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4cfc8;
+  border-radius: 3px;
+}

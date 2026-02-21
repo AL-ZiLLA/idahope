@@ -1,0 +1,101 @@
+export const siteConfig = {
+  name: 'IDAhope Therapy & Wellness',
+  description: 'Emily Wolf, LMFT — Compassionate, evidence-based therapy for adolescents, young adults, and individuals navigating anxiety, depression, eating disorders, and identity in Boise, Idaho.',
+  url: 'https://idahopetherapy.com',
+  ogImage: '/images/og-image.jpg',
+  phone: '(208) 391-5576',
+  email: 'Emily@idahopetherapy.com',
+  location: 'Boise & Eagle, Idaho',
+  bookingUrl: 'https://emily-wolf.clientsecure.me',
+  therapist: {
+    name: 'Emily Wolf',
+    title: 'LMFT',
+    fullTitle: 'Licensed Marriage & Family Therapist',
+    university: 'Pepperdine University',
+    practiceSince: 2010,
+  },
+  links: {
+    eagleCollective: 'https://eagletherapistcollective.com',
+  },
+}
+
+export const specialties = [
+  {
+    title: 'Adolescents & Young Adults',
+    slug: 'teen-therapy-idaho',
+    description: 'Guiding teens and young adults through identity, peer pressure, and the transition to independence with compassion and understanding.',
+    icon: 'adolescents',
+    metaTitle: 'Teen & Adolescent Therapy in Idaho | IDAhope',
+    metaDescription: 'Compassionate therapy for teens and young adults in Boise, Idaho. Emily Wolf, LMFT helps adolescents navigate identity, anxiety, and life transitions.',
+  },
+  {
+    title: 'Anxiety',
+    slug: 'anxiety-therapy-boise',
+    description: 'Comprehensive support to understand and manage anxiety, helping you regain clarity and control in everyday life.',
+    icon: 'anxiety',
+    metaTitle: 'Anxiety Therapist in Boise, Idaho | IDAhope',
+    metaDescription: 'Evidence-based anxiety therapy in Boise, Idaho. Emily Wolf, LMFT provides compassionate support to help you manage anxiety and regain control.',
+  },
+  {
+    title: 'Depression',
+    slug: 'depression-therapy-boise',
+    description: 'A safe, non-judgmental space to explore feelings of isolation and sadness, working together toward healing and recovery.',
+    icon: 'depression',
+    metaTitle: 'Depression Therapist in Boise, Idaho | IDAhope',
+    metaDescription: 'Specialized depression therapy in Boise, Idaho. Emily Wolf, LMFT creates a safe space for healing, hope, and recovery.',
+  },
+  {
+    title: 'Eating Disorders & Body Image',
+    slug: 'eating-disorder-therapist-boise',
+    description: 'Specialized care for navigating complex relationships with food and body image, fostering self-acceptance and health.',
+    icon: 'eating',
+    metaTitle: 'Eating Disorder Therapist in Boise, Idaho | IDAhope',
+    metaDescription: 'Specialized eating disorder and body image therapy in Boise, Idaho. Emily Wolf, LMFT offers compassionate, evidence-based care.',
+  },
+  {
+    title: 'Identity & Self-Discovery',
+    slug: 'identity-self-discovery',
+    description: 'Support for exploring and embracing who you are in a welcoming environment free of judgment.',
+    icon: 'identity',
+    metaTitle: 'Identity & Self-Discovery Therapy in Boise | IDAhope',
+    metaDescription: 'Explore identity and self-discovery in a safe, judgment-free space. Emily Wolf, LMFT in Boise, Idaho.',
+  },
+  {
+    title: 'Parenting Support',
+    slug: 'parenting-support-boise',
+    description: 'Guidance for navigating the rewarding challenges of parenthood, strengthening family dynamics and confidence.',
+    icon: 'parenting',
+    metaTitle: 'Parenting Support Therapist in Boise, Idaho | IDAhope',
+    metaDescription: 'Professional parenting support and family therapy in Boise, Idaho. Emily Wolf, LMFT helps strengthen family dynamics.',
+  },
+]
+
+export const blogPosts = [
+  {
+    title: 'Understanding Anxiety in Teens: What Parents Need to Know',
+    slug: 'understanding-anxiety-teens',
+    date: 'February 18, 2026',
+    tag: 'Anxiety',
+    readTime: '5 min read',
+    excerpt: 'Anxiety in adolescents often looks different than in adults. Learn the signs and how to create a supportive environment at home.',
+    image: '/images/blog-teens.jpg',
+  },
+  {
+    title: 'Your Relationship with Food: When to Seek Help',
+    slug: 'relationship-with-food',
+    date: 'February 12, 2026',
+    tag: 'Eating Disorders',
+    readTime: '4 min read',
+    excerpt: "Disordered eating affects more people than most realize. Here's how to recognize patterns and take the first step toward healing.",
+    image: '/images/blog-food.jpg',
+  },
+  {
+    title: '5 Grounding Techniques for Everyday Stress',
+    slug: 'grounding-techniques-stress',
+    date: 'February 5, 2026',
+    tag: 'Wellness',
+    readTime: '3 min read',
+    excerpt: 'Simple, evidence-based practices you can use anywhere to calm your nervous system and regain a sense of control.',
+    image: '/images/blog-grounding.jpg',
+  },
+]
