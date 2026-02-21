@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next'
-import { specialties, blogPosts } from '@/lib/config'
+import { specialties } from '@/lib/config'
+import { getAllPosts } from '@/lib/blog'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://idahopetherapy.com'
@@ -11,9 +12,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
-  const blogPages = blogPosts.map((p) => ({
+  const blogPages = getAllPosts().map((p) => ({
     url: `${baseUrl}/blog/${p.slug}`,
-    lastModified: new Date(),
+    lastModified: new Date(p.date),
     changeFrequency: 'weekly' as const,
     priority: 0.6,
   }))
