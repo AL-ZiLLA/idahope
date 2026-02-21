@@ -1,11 +1,26 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import Navbar from '@/components/Navbar'
 import SpecialtyIcon from '@/components/SpecialtyIcon'
 import ContactForm from '@/components/ContactForm'
 import Footer from '@/components/Footer'
 import { siteConfig, specialties, blogPosts } from '@/lib/config'
+import { getAllPosts } from '@/lib/blog'
 
 export default function Home() {
+  const mdPosts = getAllPosts()
+  const displayPosts = mdPosts.length > 0
+    ? mdPosts.slice(0, 3).map((p) => ({
+        title: p.title,
+        slug: p.slug,
+        date: p.date,
+        tag: p.tag,
+        readTime: p.readTime,
+        excerpt: p.excerpt,
+        image: p.image,
+      }))
+    : blogPosts
+
   return (
     <main>
       <Navbar />
@@ -212,14 +227,15 @@ export default function Home() {
               From the <span className="section-heading-accent">Blog</span>
             </h2>
           </div>
-          <button className="cta-btn-outline !py-2.5 !px-6 !text-[11px]">All Posts</button>
+          <Link href="/blog" className="cta-btn-outline !py-2.5 !px-6 !text-[11px]">All Posts</Link>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
-          {blogPosts.map((post) => (
-            <div
+          {displayPosts.map((post) => (
+            <Link
               key={post.slug}
-              className="blog-card bg-white border border-cream-200 rounded-sm overflow-hidden"
+              href={`/blog/${post.slug}`}
+              className="blog-card bg-white border border-cream-200 rounded-sm overflow-hidden no-underline"
             >
               <div className="h-[200px] relative overflow-hidden">
                 <Image
@@ -248,7 +264,7 @@ export default function Home() {
                   </span>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </section>
