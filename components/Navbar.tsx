@@ -5,11 +5,11 @@ import Image from 'next/image'
 import { siteConfig } from '@/lib/config'
 
 const NAV_LINKS = [
-  { label: 'Home', href: '#home' },
-  { label: 'About', href: '#about' },
-  { label: 'Services', href: '#services' },
-  { label: 'Blog', href: '#blog' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Home', href: '/#home' },
+  { label: 'About', href: '/#about' },
+  { label: 'Services', href: '/#services' },
+  { label: 'Blog', href: '/blog' },
+  { label: 'Contact', href: '/#contact' },
 ]
 
 export default function Navbar() {
@@ -31,7 +31,7 @@ export default function Navbar() {
             : 'bg-transparent border-b border-transparent'
         }`}
       >
-        <a href="#home" className="flex items-center gap-3.5">
+        <a href="/#home" className="flex items-center gap-3.5">
           <Image
             src="/images/logo.png"
             alt="IDAhope"
