@@ -3,11 +3,21 @@ import Link from 'next/link'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import { getAllPosts } from '@/lib/blog'
+import { siteConfig } from '@/lib/config'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Blog — Therapy Insights & Resources',
   description: 'Evidence-based articles on anxiety, depression, eating disorders, teen therapy, and wellness from Emily Wolf, LMFT in Boise, Idaho.',
+  alternates: {
+    canonical: `${siteConfig.url}/blog`,
+  },
+  openGraph: {
+    title: 'Blog — Therapy Insights & Resources',
+    description: 'Evidence-based articles on anxiety, depression, eating disorders, teen therapy, and wellness from Emily Wolf, LMFT in Boise, Idaho.',
+    url: `${siteConfig.url}/blog`,
+    type: 'website',
+  },
 }
 
 export default function BlogPage() {

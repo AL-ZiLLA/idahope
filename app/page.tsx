@@ -39,9 +39,9 @@ export default function Home() {
           <div className="animate-fade-up text-center md:text-left">
             <div className="section-label">Emily Wolf, LMFT · Boise, Idaho</div>
             <h1 className="text-[clamp(40px,6vw,64px)] font-light leading-[1.1] text-dark mb-6 -tracking-[1px]">
-              Empower
+              Empower{' '}
               <br />
-              Your Mind,
+              Your Mind,{' '}
               <br />
               <span className="italic text-sage-500 font-normal">Restore Your Hope</span>
             </h1>
