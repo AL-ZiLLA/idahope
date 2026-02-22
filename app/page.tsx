@@ -6,6 +6,13 @@ import ContactForm from '@/components/ContactForm'
 import Footer from '@/components/Footer'
 import { siteConfig, specialties, blogPosts } from '@/lib/config'
 import { getAllPosts } from '@/lib/blog'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: siteConfig.url,
+  },
+}
 
 export default function Home() {
   const mdPosts = getAllPosts()
