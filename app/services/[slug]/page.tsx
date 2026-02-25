@@ -56,7 +56,7 @@ export default function ServicePage({ params }: Props) {
         </Link>
 
         <h1 className="text-[clamp(30px,5vw,48px)] font-light text-dark leading-[1.2] mb-6">
-          {specialty.title}
+          {specialty.h1Title}
         </h1>
 
         <p className="body-text text-lg mb-12">
