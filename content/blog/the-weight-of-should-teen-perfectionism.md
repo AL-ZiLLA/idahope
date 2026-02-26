@@ -4,7 +4,7 @@ date: "2026-02-25"
 tag: "Anxiety"
 excerpt: "Your straight-A student might be drowning in anxiety. Learn how perfectionism fuels teen stress and what parents can do to help build healthier achievement."
 metaDescription: "Teen perfectionism often masks serious anxiety. Emily Wolf, LMFT, anxiety therapist in Boise, Idaho shares signs of perfectionist anxiety in teens and how to help."
-image: "/images/blog-teens.jpg"
+image: "/images/blog/teen-perfectionism.jpg"
 keywords: ["teen anxiety Boise", "perfectionism in teenagers Idaho", "anxiety therapist Boise", "high achieving teen stress"]
 ---
 
