@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import BlogSubscribe from '@/components/BlogSubscribe'
 import { getAllPosts } from '@/lib/blog'
 import { siteConfig } from '@/lib/config'
 import type { Metadata } from 'next'
@@ -33,6 +34,10 @@ export default function BlogPage() {
           <h1 className="section-heading">
             From the <span className="section-heading-accent">Blog</span>
           </h1>
+        </div>
+
+        <div className="mb-16">
+          <BlogSubscribe />
         </div>
 
         {posts.length === 0 ? (
