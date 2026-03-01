@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: 'IDAhope Therapy & Wellness',
-  description: 'Emily Wolf, LMFT — Compassionate, evidence-based therapy for adolescents, young adults, and individuals navigating anxiety, depression, eating disorders, and identity in Boise, Idaho.',
+  description: 'Compassionate, evidence-based therapy in Boise, Idaho. Emily Wolf, LMFT specializes in anxiety, depression, eating disorders, and adolescent mental health.',
   url: 'https://idahopetherapy.com',
   ogImage: '/images/og-image.jpg',
   phone: '(208) 391-5576',
@@ -45,7 +45,7 @@ export const specialties = [
     description: 'A safe, non-judgmental space to explore feelings of isolation and sadness, working together toward healing and recovery.',
     icon: 'depression',
     metaTitle: 'Depression Therapist in Boise, Idaho',
-    metaDescription: 'Specialized depression therapy in Boise, Idaho. Emily Wolf, LMFT creates a safe space for healing, hope, and recovery.',
+    metaDescription: 'Specialized depression therapy in Boise, Idaho. Emily Wolf, LMFT creates a compassionate, judgment-free space for healing, renewed hope, and recovery.',
   },
   {
     title: 'Eating Disorders & Body Image',
@@ -54,7 +54,7 @@ export const specialties = [
     description: 'Specialized care for navigating complex relationships with food and body image, fostering self-acceptance and health.',
     icon: 'eating',
     metaTitle: 'Eating Disorder Therapist in Boise, Idaho',
-    metaDescription: 'Specialized eating disorder and body image therapy in Boise, Idaho. Emily Wolf, LMFT offers compassionate, evidence-based care.',
+    metaDescription: 'Specialized eating disorder and body image therapy in Boise, Idaho. Emily Wolf, LMFT offers compassionate, evidence-based care for lasting healing and recovery.',
   },
   {
     title: 'Identity & Self-Discovery',
@@ -72,7 +72,7 @@ export const specialties = [
     description: 'Guidance for navigating the rewarding challenges of parenthood, strengthening family dynamics and confidence.',
     icon: 'parenting',
     metaTitle: 'Parenting Support Therapist in Boise, Idaho',
-    metaDescription: 'Professional parenting support and family therapy in Boise, Idaho. Emily Wolf, LMFT helps strengthen family dynamics.',
+    metaDescription: 'Professional parenting support and family therapy in Boise, Idaho. Emily Wolf, LMFT helps strengthen family dynamics and navigate parenting challenges.',
   },
 ]
 

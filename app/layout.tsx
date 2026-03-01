@@ -6,7 +6,7 @@ import './globals.css'
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.therapist.name}, ${siteConfig.therapist.title} — Therapist in Boise, Idaho | ${siteConfig.name}`,
+    default: `${siteConfig.therapist.name}, ${siteConfig.therapist.title} | Therapist in Boise, Idaho`,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,

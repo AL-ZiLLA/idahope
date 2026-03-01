@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Virtual Therapy in Idaho | IDAhope Therapy & Wellness',
+  title: { absolute: 'Virtual Therapy in Idaho | IDAhope Therapy & Wellness' },
   description: 'HIPAA-compliant virtual therapy sessions across Idaho. Emily Wolf, LMFT provides secure, convenient online therapy from the comfort of your home.',
   alternates: {
     canonical: `${siteConfig.url}/services/virtual-therapy-idaho`,
