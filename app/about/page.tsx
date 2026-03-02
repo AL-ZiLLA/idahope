@@ -5,7 +5,7 @@ import Image from 'next/image'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'About Emily Wolf, LMFT | IDAhope Therapy & Wellness',
+  title: 'About Emily Wolf, LMFT',
   description: 'Meet Emily Wolf, LMFT - Licensed therapist in Boise, Idaho with 15+ years experience. Pepperdine graduate specializing in teens, anxiety, and eating disorders.',
   alternates: {
     canonical: `${siteConfig.url}/about`,

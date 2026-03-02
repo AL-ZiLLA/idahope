@@ -6,7 +6,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Therapy Services in Boise, Idaho | IDAhope',
+  title: 'Therapy Services in Boise, Idaho',
   description: 'Specialized therapy services for anxiety, depression, teens, eating disorders, and more. Emily Wolf, LMFT in Boise, Idaho.',
   alternates: {
     canonical: `${siteConfig.url}/services`,

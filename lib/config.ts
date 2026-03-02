@@ -63,7 +63,7 @@ export const specialties = [
     description: 'Support for exploring and embracing who you are in a welcoming environment free of judgment.',
     icon: 'identity',
     metaTitle: 'Identity & Self-Discovery Therapy in Boise',
-    metaDescription: 'Explore identity and self-discovery in a safe, judgment-free space. Emily Wolf, LMFT in Boise, Idaho.',
+    metaDescription: 'Explore identity and self-discovery in a safe, judgment-free space with Emily Wolf, LMFT in Boise, Idaho. Therapy for self-esteem, values, and personal growth.',
   },
   {
     title: 'Parenting Support',

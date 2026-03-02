@@ -5,7 +5,7 @@ import { siteConfig } from '@/lib/config'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Contact Emily Wolf, LMFT | IDAhope Therapy Boise',
+  title: 'Contact Emily Wolf, LMFT',
   description: 'Get in touch with Emily Wolf, LMFT in Boise, Idaho. Call (208) 391-5576 or book a free consultation online. Virtual therapy available.',
   alternates: {
     canonical: `${siteConfig.url}/contact`,
