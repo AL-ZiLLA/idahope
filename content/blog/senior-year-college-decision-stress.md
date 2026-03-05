@@ -4,7 +4,7 @@ date: "2026-03-05"
 tag: "Teens & Young Adults"
 excerpt: "Acceptance letters are exciting — but for many seniors, they trigger a spiral of anxiety. Here's how to help your teen navigate one of the biggest decisions of their life."
 metaDescription: "College acceptance letters bring excitement AND anxiety. Emily Wolf, LMFT in Eagle and Boise, Idaho shares how to help seniors cope with college decision stress."
-image: "/images/blog-student-burnout.jpg"
+image: "/images/blog-graduation.jpg"
 keywords: ["teen anxiety Boise", "senior year stress Idaho", "teen therapist Eagle Idaho", "college decision anxiety", "high school senior mental health"]
 ---
 
