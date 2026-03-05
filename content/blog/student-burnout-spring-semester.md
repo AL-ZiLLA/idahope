@@ -4,7 +4,7 @@ date: "2026-03-05"
 tag: "Teens & Young Adults"
 excerpt: "Spring semester burnout is real — and it hits students hard. Learn the signs and simple self-care strategies to help your teen finish the year strong without falling apart."
 metaDescription: "Is your teen exhausted and checked out in spring semester? Emily Wolf, LMFT in Eagle and Boise, Idaho shares signs of student burnout and self-care strategies to help."
-image: "/images/blog-teens.jpg"
+image: "/images/blog-student-burnout.jpg"
 keywords: ["teen burnout Boise", "student stress Idaho", "teen therapist Eagle Idaho", "spring semester burnout", "teen mental health Boise"]
 ---
 
