@@ -4,7 +4,7 @@ date: "2026-03-09"
 tag: "Teens & Young Adults"
 excerpt: "Teen girls today are navigating pressures that previous generations never faced. Here's what's really going on beneath the surface — and how to stay connected with your daughter."
 metaDescription: "Teen girls face unique emotional and social challenges. Emily Wolf, LMFT in Eagle and Boise, Idaho shares what parents need to know to support their daughters."
-image: "/images/blog-teen-girl.jpg"
+image: "/images/blog-teen-girl-portrait.jpg"
 keywords: ["teen girl therapy Boise", "teenage girl mental health Idaho", "teen therapist Eagle Idaho", "supporting teenage daughters", "adolescent girls anxiety"]
 ---
 
